@@ -1,0 +1,136 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Sun May 17 11:49:47 2020",
+    "version": "eosio::abi/1.0",
+    "structs": [
+        {
+            "name": "deldata",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "editdata",
+            "base": "",
+            "fields": [
+                {
+                    "name": "dataid",
+                    "type": "uint64"
+                },
+                {
+                    "name": "dataname",
+                    "type": "string"
+                },
+                {
+                    "name": "text",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "home",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "dataname",
+                    "type": "string"
+                },
+                {
+                    "name": "text",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "init",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "myglobals",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "maxdata",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "newdata",
+            "base": "",
+            "fields": [
+                {
+                    "name": "dataname",
+                    "type": "string"
+                },
+                {
+                    "name": "text",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "reset",
+            "base": "",
+            "fields": []
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "deldata",
+            "type": "deldata",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "editdata",
+            "type": "editdata",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "init",
+            "type": "init",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "newdata",
+            "type": "newdata",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "reset",
+            "type": "reset",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "home",
+            "type": "home",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "myglobals",
+            "type": "myglobals",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "abi_extensions": []
+}
